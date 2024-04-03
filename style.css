@@ -187,8 +187,15 @@ nav.thanh-dieu-huong {
 input.input-fixed {
   display: inline-block;
   font-size: 1.6rem;
-  width: 480px;
+  width: 460px;
   height: 40px;
+  border: transparent;
+}
+.tong-input {
+  border: 2px solid gray;
+  border-radius: 4px;
+  color: gray;
+  font-size: 1.4rem;
 }
 .mat-khau {
   margin-left: 2px;
@@ -204,4 +211,16 @@ input.input-fixed {
 p.p-note {
   padding: 20px;
   line-height: 1.4;
+}
+.logo-ten-tk {
+  margin-left: 10px;
+  margin-right: 3px;
+}
+.logo-mat-khau {
+  margin-left: 10px;
+  margin-right: 3px;
+}
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
