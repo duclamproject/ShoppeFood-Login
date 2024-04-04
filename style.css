@@ -1,13 +1,15 @@
 :root {
   font-size: 62.5%;
 }
+a {
+  color: #08f;
+}
 body {
   background-color: #ebebeb;
   color: black;
   font-size: 1.6rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
-  height: 3000px;
 }
 
 nav.thanh-dieu-huong {
@@ -223,4 +225,109 @@ p.p-note {
 hr {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+/* Phần footer */
+.footer-login {
+  margin-top: 30px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Cột 1 footer */
+.chua-content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.ul-footer a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 8px;
+  color: #08f;
+}
+.main-content-footer-1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+h2.h2-cot-2,
+h2.h2-cot-4-footer,
+h2.h2-footer {
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-size: 1.7rem;
+}
+/* Cột 2 footer */
+.main-content-footer-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-right: 5px;
+}
+.chua-img-footer {
+  display: flex;
+  flex-direction: column;
+}
+.img-footer-app {
+  margin-bottom: 17px;
+  border-radius: 6px;
+  width: 122px;
+  height: 40px;
+  cursor: pointer;
+}
+/* Cột 3 footer */
+.main-content-footer-3 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  align-items: center;
+  color: gray;
+  width: 241px;
+  height: 215px;
+}
+.main-content-footer-3 .img-cot-3 {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.main-content-footer-3 .p-cot-3 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.div-chua-logo-footer-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.footer-facebook,
+.footer-insta {
+  border-radius: 50%;
+  font-size: 3rem;
+  /* border: 7px solid gray;
+  background-color: white; */
+  cursor: pointer;
+}
+/* Cột 4 */
+.main-content-footer-4,
+.div-cot-4-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.div-cot-4-footer {
+  font-family: Noto Sans, Arial, sans-serif;
+  color: #464646;
+  line-height: 3rem;
+  font-size: 1.4rem;
+}
+.img-cot-4-footer {
+  width: 177px;
+  height: 68px;
 }
