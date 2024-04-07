@@ -163,6 +163,25 @@ nav.thanh-dieu-huong {
   color: white;
   padding: 10px 215px;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.main-login .box-content.login-main::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  height: 100%;
+  background-color: blueviolet;
+  z-index: -1;
+  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.main-login .box-content.login-main:hover:before {
+  width: 100%;
+  left: 0;
 }
 .remember-infor {
   display: flex;
