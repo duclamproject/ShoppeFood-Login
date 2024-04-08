@@ -5,7 +5,7 @@ a {
   color: #08f;
 }
 body {
-  background-color: #ebebeb;
+  background-color: rgb(242, 242, 242);
   color: black;
   font-size: 1.6rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -21,6 +21,7 @@ nav.thanh-dieu-huong {
   align-items: center;
   position: sticky;
   top: 0px;
+  z-index: 1000;
 }
 
 .thanh-dieu-huong .menu-chinh .list {
@@ -390,3 +391,9 @@ p.p-place {
   border-bottom-right-radius: 4px;
 }
 /* End click khu vực */
+.ul-footer li a {
+  line-height: 22px;
+}
+footer {
+  padding-bottom: 40px;
+}
